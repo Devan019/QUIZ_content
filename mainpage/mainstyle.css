@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: radial-gradient(rgb(157, 157, 212),rgb(110, 110, 180),rgb(38, 38, 72));
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    /* top: 20px; */
+    border: 2px solid black;
+    border-top:none;
+    background: #aa16ff;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    color: white;
+
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+ul li{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    top: 10px;
+    left: 100px;
+}
+a{
+    text-decoration: none;
+    color:  white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.ddit{
+    position: relative;
+    bottom: 10px;
+}
+ion-icon{
+    width: 20px;
+    height: 20px;
+}
+.middlepage{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    min-height: 30vh;
+    align-items: center;
+    color: aliceblue;
+}
+.profile{
+    font-size: x-large;
+    color: white;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    border: 5px solid white;
+    color: white;
+    margin-left: 30vw;
+}
+.sub{
+    margin: 20px;
+    padding: 10px;
+    font-size: large;
+    width: 70%;
+    border-radius: 25px;
+}
+.sub:hover{
+    background: lightblue;
+}
+form div input{
+    width: 50%;
+    border-radius: 25px;
+    padding: 5px;
+   
+}
+form{
+     text-align: center;
+}
+form div{
+    position: relative;
+    margin: 30px;
+}
+.form h3{
+    text-align: center;
+}
+.pro{
+   color: black;
+   font-size: medium;
+}
+.formremove{
+    background: transparent;
+    color: transparent;
+    border: 21px solid transparent;
+}
+.divbox{
+    width: 300px;
+    height: 500px;
+    border: 2px solid white;
+    color: white;
+}
+.quizs div{
+    display: flex;
+    justify-content: start;
+    color: white;
+    margin: 20px;
+    height: 80px;
+    width: 100%;
+    border: 2px solid black;
+
+}
+.quizs div:hover{
+    background: rgb(13, 168, 211);
+    transition: 2s linear;
+}
+.quizs{
+    margin: 20px;
+}
+.afterpage{
+    position: relative;
+    bottom: 400px;
+}
+
+/* @media screen */
+.menu{
+    color: transparent;
+} 
+@media(max-width :775px){
+    .menu {
+        color: black;
+
+    }
+    ul li{
+        color: transparent;
+    }
+    ul li a{
+        color: transparent;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+}
+
+.aboutquiz span{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+}
+.startquiz{
+    display: flex;
+    justify-content: center;
+}
+.startquiz input{
+   font-size: xx-large;
+   padding: 20px;
+   color: aqua;
+   background: rgb(14, 14, 19);
+   border-radius: 25px;
+}

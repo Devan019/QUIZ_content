@@ -1,0 +1,8 @@
+.main{
+    background-image: url('htmllogo.png');
+    background-color: rgb(147, 108, 108);
+    background-size:32vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: whitesmoke;
+}

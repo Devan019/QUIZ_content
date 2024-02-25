@@ -1,0 +1,6 @@
+.main{
+    background-image: url('historyimg.png');
+    background-size:47  vw;
+    background-repeat: no-repeat;
+    /* object-fit:scale-down; */
+}

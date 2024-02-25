@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 60vw;
+  height: 20vh;
+  margin: auto;
+  margin-top: 10vh;
+  /* border: 5px solid black; */
+  border-radius: 15px;
+  text-align: center;
+
+  padding: 10vw;
+  font-size: 3vmax;
+  font-weight: 600;
+  background-color: lawngreen;
+}
+.sorry {
+  border: 5px solid black;
+  background-color: yellow;
+  width: 60vw;
+  height: 20vh;
+  margin: auto;
+  margin-top: 10vh;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10vw;
+  font-size: 3vmax;
+  font-weight: 600;
+}
+.next {
+  padding: 1.2vmin;
+  display: inline-block;
+}
+.answer {
+  border: 4px solid black;
+  background-color: rgb(79, 250, 228);
+  font-size: large;
+  font-weight: 900;
+  padding: 2vmin;
+  margin: 3vmin;
+  border-radius: 1vw;
+  height: 35vh;
+  margin: auto;
+  margin-top: 2vh;
+  width: 30vw;
+  display: flexbox;
+  row-gap: 10px;
+}

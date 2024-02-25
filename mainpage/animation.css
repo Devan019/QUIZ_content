@@ -1,0 +1,130 @@
+@keyframes animated{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.1) translateY(-90%) rotate(360deg);
+        opacity: 0.5;
+    }
+}
+
+main div{
+    position: absolute;
+    color:transparent;
+    border: 2px solid white;
+    border-radius: 25%;
+    width: 10px;
+    height: 10px;
+
+}
+main div:nth-child(1){
+    top:20%;
+    left: 5%;
+    animation: animated 10s linear infinite;
+}
+main div:nth-child(2){
+    top:25%;
+    left: 15%;
+    animation: animated 7s linear infinite;
+}
+main div:nth-child(3){
+    top:70%;
+    left: 55%;
+    animation: animated 5s linear infinite;
+}
+main div:nth-child(4){
+    top:60%;
+    left: 25%;
+    animation: animated 9s linear infinite;
+}
+main div:nth-child(5){
+    top:30%;
+    left: 95%;
+    animation: animated 10s linear infinite;
+}
+main div:nth-child(6){
+    top:90%;
+    left: 15%;
+    animation: animated 12s linear infinite;
+}
+main div:nth-child(7){
+    top:120%;
+    left: 75%;
+    animation: animated 7s linear infinite;
+}
+main div:nth-child(8){
+    top:150%;
+    left: 15%;
+    animation: animated 10s linear infinite;
+}
+main div:nth-child(9){
+    top:70%;
+    left: 90%;
+    animation: animated 6s linear infinite;
+}
+main div:nth-child(10){
+    top:50%;
+    left: 42%;
+    animation: animated 9s linear infinite;
+}
+main div:nth-child(11){
+    top:200%;
+    left: 55%;
+    animation: animated 15s linear infinite;
+}
+main div:nth-child(12){
+    top:120%;
+    left: 25%;
+    animation: animated 10s linear infinite;
+}
+main div:nth-child(13){
+    top:40%;
+    left: 85%;
+    animation: animated 9s linear infinite;
+}
+main div:nth-child(14){
+    top:40%;
+    left: 65%;
+    animation: animated 3s linear infinite;
+}
+main div:nth-child(15){
+    top:90%;
+    left: 35%;
+    animation: animated 9s linear infinite;
+}
+main div:nth-child(16){
+    top:160%;
+    left: 95%;
+    animation: animated 10s linear infinite;
+}
+main div:nth-child(17){
+    top:140%;
+    left: 95%;
+    animation: animated 7s linear infinite;
+}
+main div:nth-child(18){
+    top:170%;
+    left: 35%;
+    animation: animated 5s linear infinite;
+}
+main div:nth-child(19){
+    top:190%;
+    left: 65%;
+    animation: animated 10s linear infinite;
+}
+main div:nth-child(20){
+    top:80%;
+    left: 80%;
+    animation: animated 8s linear infinite;
+}
+main div:nth-child(21){
+    top:60%;
+    left: 75%;
+    animation: animated 5s linear infinite;
+}
+main div:nth-child(22){
+    top:170%;
+    left: 85%;
+    animation: animated 7s linear infinite;
+}

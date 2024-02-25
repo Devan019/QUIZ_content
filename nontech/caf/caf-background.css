@@ -1,0 +1,8 @@
+.main{
+    background-image: url('./cafimg.png');
+    /* background-color: rgb(147, 108, 108); */
+    background-size:45vw   ;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* color: rgb(77, 29, 29); */
+}

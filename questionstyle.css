@@ -1,0 +1,244 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url('cbodyback.jpeg'); */
+    /* background-repeat: no-repeat; */
+    /* background-color: aqua; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+.main {
+    border: 3px solid black;
+    /* color: white; */
+    /* background-color: aqua; */
+    border-radius: 15px;
+    width: 30vw;
+    height: 63vh;
+    margin: auto;
+    margin-top: 10vh;
+    overflow:auto;
+    word-wrap: break-word;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.a,.b,.c,.d{
+    border: 2px solid black;
+    background-color: pink;
+    color: black;
+    width: 50%;
+    margin-left: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    overflow:auto;
+    word-wrap: break-word;
+    font-size: 20px;
+}
+
+button{
+    float: right;
+    background-color: rgb(0 0 0);;
+    color: white;
+    padding: 5px;
+}
+.previous{
+    margin-right: 18vw;
+}
+.next{
+    margin-right: 35vw;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    border: 2px solid black;
+    border-top:none;
+    background: #aa16ff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10.5vh;
+    box-shadow: -1px 7px 20px 18px grey;
+    word-wrap: break-word;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+ul li{
+    position: relative;
+    top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.ddit{
+    position: relative;
+    bottom: 10px;
+    font-size: 6.5vh;
+}
+ion-icon{
+    width: 5vw;
+    height: 200%;
+}
+ul li :hover{
+    background: blueviolet;
+}
+
+/* .main::before{
+    content: '';
+    background-image: url('cbackground.png');
+    background-size:61vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .5;
+
+} */
+
+.hide{
+    display: none;
+}
+.sorryy{
+    
+    /* min-height: 50vh;
+    text-align: center;
+    width: 50%;
+    height: 25%;
+    color: black;
+    background: yellow;
+    position: relative;
+    top: 10vw;
+   margin-left: 20vw;
+     font-size: xx-large;
+     display: flex;
+     justify-content: center;
+     align-items: center; */
+     border: 5px solid black;
+     background-color: yellow;
+     width: 60vw;
+     height: 20vh;
+     margin: auto;
+     margin-top: 10vh;
+     border-radius: 15px;
+     text-align: center;
+     padding: 10vw;
+     font-size: 3vmax;
+     font-weight: 600;
+
+}
+.finalbutton{
+    /* position: relative;
+    top: 10vw; */
+    color: white;
+    margin-right: 10vw;
+    margin-top: .5vh;
+}
+.finalbutton a{
+    color: white;
+}
+/* .ans{
+    display: flex;
+    justify-content: center;
+}
+.answer{
+    font-size: xx-large;
+
+} */
+/* .backpage{
+    position: relative;
+    top: 30vw;
+} */
+.cont{
+    /* background: rgb(42, 133, 42);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    width: 50%;
+    height: 25%;
+     border: 2px solid black;
+     min-height: 50vh;
+     position: relative;
+     left: 20vw;
+     top: 10vw; */
+     width: 60vw;
+     height: 20vh;
+     margin: auto;
+     margin-top: 10vh;
+     border: .5vmin solid black;
+     border-radius: 15px;
+     text-align: center;
+   
+     padding: 10vw;
+     font-size: 3vmax;
+     font-weight: 600;
+     background-color: lawngreen;
+
+}
+.time{
+   position: relative;
+  top: 4vw;
+  font-size: xx-large;  
+  display: flex;
+  justify-content: center; 
+ 
+}
+/* .time1{
+    position: relative;
+    left: 35vw;
+    font-size: xx-large;
+    top: 6vh;
+
+} */
+.answer {
+    border: 4px solid black;
+    background-color: rgb(79, 250, 228);
+    font-size: large;
+    font-weight: 900;
+    padding: 2vmin;
+    margin: 3vmin;
+    border-radius: 1vw;
+    height: 45vh;
+    margin: auto;
+    margin-top: 2vh;
+    width: 30vw;
+    display: flexbox;
+    row-gap: 10px;
+}
+.showresult{
+    position: relative;
+    top: 73vh;
+    right: 70vw;
+    font-size: medium;
+    color: white;
+}
+.showresult0{
+    position: relative;
+    right: 70vw;
+    top: .4vh;
+    font-size: medium;
+    /* color: white;
+    background: ; */
+}
+ a{
+    /* /* background: #000; */
+    color: white; 
+}
